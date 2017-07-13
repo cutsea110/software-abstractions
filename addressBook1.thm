@@ -1,0 +1,37 @@
+<?xml version="1.0"?>
+<alloy>
+
+<view nodetheme="Martha">
+
+<projection> <type name="Book"/> </projection>
+
+<defaultnode/>
+
+<defaultedge/>
+
+<node>
+   <type name="Int"/>
+   <type name="String"/>
+   <type name="univ"/>
+   <type name="seq/Int"/>
+</node>
+
+<node shape="Box" color="Blue">
+   <type name="Name"/>
+</node>
+
+<node shape="Ellipse" color="Yellow">
+   <type name="Addr"/>
+</node>
+
+<node shape="Parallelogram" color="Green">
+   <type name="Book"/>
+</node>
+
+<node style="Bold" label="b">
+   <set name="$show_b" type="Book"/>
+</node>
+
+</view>
+
+</alloy>
